@@ -20,9 +20,9 @@ The Payment Application is a simulation of the payment process when making purch
 
 1. **Compilation:**
    - Ensure you have a C compiler (e.g., GCC) installed on your system.
-   - Compile the source files (`main.c`, `card.c`, `server.c`, `terminal.c`) using the following command:
+   - Compile the source files (`main.c`, `card.c`, `server.c`, `terminal.c`, `GetTime.c`) using the following command:
      ```
-     gcc main.c card.c server.c terminal.c -o payment_app
+     gcc main.c card.c server.c terminal.c GetTime.c -o payment_app
      ```
    - This will generate an executable file named `payment_app`.
 
